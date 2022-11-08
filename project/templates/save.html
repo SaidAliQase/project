@@ -1,0 +1,68 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	
+
+	
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/test.css')}}">
+</head>
+  
+
+<body class="container-sm">
+
+
+
+<h1 class="h1">HOUSE OF THE DRAGON</h1>
+<div>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{url_for('static',filename='images/SEC.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static',filename='images/third.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static',filename='images/first.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+ <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+
+<div>
+<p class="container-sm" style=" font-size: 18px;">
+  House of the Dragon is an American fantasy drama television series. An independent prequel to Game of Thrones (2011–2019), it is the second show in the franchise, created by George R. R. Martin and Ryan Condal for HBO. Condal and Miguel Sapochnik are the showrunners. Based on parts of the novel Fire & Blood, the series is set about 200 years before the events of Game of Thrones, 172 years before the birth of Daenerys Targaryen, descendant of the eponymous royal house, and 100 years after the Seven Kingdoms are united by the Targaryen Conquest. Featuring an ensemble cast, the show portrays the beginning of the end of House Targaryen, the events leading up to and covering the Targaryen civil war of succession, known as the "Dance of the Dragons".
+
+<br>
+<br>
+House of the Dragon received a straight-to-series order in October 2019, with casting beginning in July 2020 and principal photography starting in April 2021 in the United Kingdom. The series premiered on August 21, 2022, with the first season consisting of ten episodes. Five days after its premiere, the series was renewed for a second season. Sapochnik departed as showrunner after the first season, leaving Condal to serve as the sole showrunner for the second season. The first season received highly positive reviews, with praise towards its character development, writing, score, and performances (particularly Considine, Smith, D'Arcy, Alcock, and Cooke). However, the pacing, specifically of the time jumps, and the lighting of some scenes were criticized. The series premiere was watched by over 10 million viewers across the linear channels and HBO Max on the first day, the biggest in HBO's history.
+
+<br>
+<br>
+Development
+Closeup of show creator Ryan Condal
+Closeup of show creator George R. R. Martin
+Show creators and executive producers Ryan Condal (left) and George R. R. Martin
+In 2015, with Game of Thrones still in production, HBO executives approached A Song of Ice and Fire writer George R. R. Martin regarding possible successors or spin-offs to the series.[16] In November 2018, Martin stated that a "potential spin-off series would be solidly based on material in Fire & Blood."[17] Game of Thrones creators David Benioff and D. B. Weiss stated they wanted to "move on" from the franchise and declined involvement in subsequent projects.[18] By September 2019, a Game of Thrones prequel series from Martin and Ryan Condal that "tracks the beginning of the end for House Targaryen" was close to receiving a pilot order from HBO.[19] The following month, House of the Dragon was given a straight-to-series order.[20] Condal and Miguel Sapochnik, who won an Emmy Award for directing the episode "Battle of the Bastards", were selected to serve as showrunners.[21] In 2016, Condal pitched the idea of a series based on Martin's Tales of Dunk and Egg, however HBO initially passed on it.[22] Sapochnik was also hired to direct the series premiere as well as additional episodes.[23] The series begins 172 years before the events of Game of Thrones during the reign of King Viserys I Targaryen, ultimately leading to the Targaryen civil war known as the Dance of the Dragons.[24][25] The project is a reworking of the rejected spin-off concept from Game of Thrones writer Bryan Cogman, on which HBO officially passed.[26]
+</p>
+</div>
+
+
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,35 @@
+
+.one{
+
+  background-color: ghostwhite;
+  padding: 20px;
+  text-align: left;
+  font-size: 150%;
+  color: black;
+  border: double 4px black ;
+	
+}
+
+.pn{
+  font-size:200% ;
+  
+}
+
+.h1{
+  text-align: center;
+	color:black;
+	font-size: 300%;
+	border: solid 5px; 
+  border: double 20px;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  border: double 20px;
+  border-radius: 25px;
+}
